@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "==2.24.0"
+pandas = "==1.0.5"
+flake8 = "==3.8.3"
+apache-airflow = {extras = ["postgres"],version = "*"}
+flask = "==1.1.2"
+pylint = "==2.5.3"
+seaborn = "==0.10.1"
+matplotlib = "==3.2.1"
+boto3 = "==1.15.0"
+s3fs = "==0.5.0"
+xlrd = "==1.1.0"
+
+[requires]
+python_version = "3.6"
