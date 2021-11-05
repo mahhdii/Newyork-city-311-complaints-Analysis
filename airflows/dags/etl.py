@@ -11,7 +11,7 @@ from airflow.operators.s3_to_redshift_operator import S3ToRedshiftTransfer
 from airflow.models import Variable
 
 default_args = {
-    'owner': 'JoshuaAcosta',
+    'owner': 'mahdi',
     'start_date': datetime(2020, 9, 20),
     'depends_on_past':False,
     'retries': 0,
